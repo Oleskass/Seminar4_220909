@@ -66,18 +66,3 @@ int numberOfDigits3 = DigitCountLog(number);
 Console.WriteLine(DateTime.Now - d3);
 
 PrintResult("Количество цифр в числе (логарифм): " + numberOfDigits3);
-
-
-
-// #27 //вычисления
-// int SumDigit (int num)
-// {
-//     int sum = 0;
-//     while (num > 0)
-//     {
-//         sum += num%10;
-//         num = num/10;
-//     }
-
-//     return sum;
-// }
